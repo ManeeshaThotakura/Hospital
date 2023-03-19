@@ -5,7 +5,7 @@
 
 /**
  *
- * @author Admin
+ * @author Admin eswar adhithya
  */
 public class Doctor extends javax.swing.JFrame {
 
