@@ -24,6 +24,8 @@ public class User extends javax.swing.JFrame {
 		String uname="root";
 		String pass="Eswar.62004";
 		String query= "Select name from customers where id=3";
+                		String query= "Select name from customers where id=3";
+                                		String query= "Select name from customers where id=3";
 		Class.forName("com.mysql.cj.jdbc.Driver");
 		Connection con =DriverManager.getConnection(url,uname,pass);
     }
