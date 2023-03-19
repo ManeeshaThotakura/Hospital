@@ -8,6 +8,7 @@
  * @author Admin
  */
 import java.sql.*;
+import java.util.*;
 public class User extends javax.swing.JFrame {
 
     /**
@@ -15,6 +16,7 @@ public class User extends javax.swing.JFrame {
      */
     public User() {
         initComponents();
+        Connect();
     }
     public void Connect() throws Exception
     {
